@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body > * {
+    padding: 0;
+    margin: 20px 0;
+}
+
+#download-button {
+    color: aqua;
+    padding: 10px 25px;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.header_titre {
+    color : red;
+    text-align : center;
+    padding: 15px 150px;
+    font-size : 28px;
+    background-color: green;
+}
+ 
+body {
+    margin : 0;
+    background-image: url(picture/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.create-task-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width : 600px;
+    border-radius : 5px;
+}
+.create-task-form>* {
+    height: 45px;
+    width: 150px;
+    margin: 0;
+}
+ 
+.taches_input {
+    width: 150px;
+    display: flex;
+}
+.middle{
+    background-color: red;
+    width : 600px;
+    display : grid;
+    grid-template-columns:  8fr 2fr;
+}
+ 
+#inserer {
+    height : 45px;
+}
+ 
+#envoyer {
+    background-color : green;
+    height : 45px;
+    width: 50px;
+}
+ 
+#description{
+    width:150px;
+}
+
+.taches {
+    width : 600px;
+    border: 1px solid green;
+    border-collapse : collapse;
+}
+ 
+th {
+    border: 1px solid green;
+    padding : 10px;
+}
+.center_table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.warning:hover{
+    color: rgb(111, 221, 254);
+}
+td {
+    border : 5px solid green;
+    text-align : center;
+    padding : 10px;
+    background-color: aliceblue;
+}
+ 
+.suppr {
+    color : red;
+    text-decoration : none;
+ 
+}
+ 
+.suppr:hover {
+    color : red;
+    text-decoration : none;
+}
+
+.rouge{
+    color: red;
+}
+
+.jaune{
+    color: gold;
+}
+
+.vert{
+    color: green;
+}
